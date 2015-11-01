@@ -23,7 +23,6 @@ check "rwfsjkla"
                   results <- 2::results
           }
       try
-          printfn "%A" ys
           for _ in ys do ()
       with
           Failure "bar" -> results <- 3::results
